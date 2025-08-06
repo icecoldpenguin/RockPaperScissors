@@ -1,0 +1,30 @@
+#counter{
+    display: block;
+    text-align: center;
+    font-size: 10em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#btncontainer{
+    display: block;
+    text-align: center;
+}
+
+.button{
+    font-size: 1.5em;
+    font: bold;
+    padding: 10px 20px;
+    color:white;
+    background-color:hsl(180, 85%, 33%);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.25s;
+}
+
+.button:hover{
+    background-color: orange;
+}
+
+.button:disabled{
+    background-color: hsl(180, 64%, 10%);
+}
